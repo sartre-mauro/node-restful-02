@@ -4,8 +4,23 @@
   "description": "",
   "main": "hello-node-http-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/nodeunit test/test-http-module.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sartre-mauro/node-restful-02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sartre-mauro/node-restful-02/issues"
+  },
+  "homepage": "https://github.com/sartre-mauro/node-restful-02#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1",
+    "sinon": "^1.17.3"
+  }
 }
